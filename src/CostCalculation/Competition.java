@@ -50,7 +50,7 @@ public class Competition extends Person implements costFee {
                 // ANSI escape code for yellow color
                 String yellowColor = "\u001B[33m";
 
-                // Print table header
+                // Print table header and label
                 System.out.println(yellowColor + "----------------------------------");
                 System.out.println("| Index | Weight Class            |");
                 System.out.println("----------------------------------");
