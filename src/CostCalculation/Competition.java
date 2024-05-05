@@ -83,6 +83,7 @@ public class Competition extends Person implements costFee {
         return null; // Return null if index is out of bounds
     }
 
+    //calculate fee
     @Override
     public void calculateFee() {
         competitionFee = noOfCompetition * 22;
